@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ErrorPage=()=>{
+const ErrorPage = () => {
 
-    return(
+    return (
         <>
-        <div>404 Page not Found</div>
+            <div>4044 Page not Found</div>
         </>
     )
 }
