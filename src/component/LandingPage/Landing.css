@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@500&display=swap');
+
+
+.landing-page {
+  background-image: url("../images/landingpage.jpg");
+  width: 100%;
+  height: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  /* opacity: 0.8; */
+}
+
+.contain {
+  position: relative;
+}
+
+.tag-line {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  font-size: 60px;
+  color: rgb(230, 230, 172);
+  color: #d6e0e0;
+  -webkit-text-stroke: .4px black;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.tag-line-2 {
+  padding: 0;
+  margin: 7px;
+  margin-left: 0;
+  position: absolute;
+  left: 5.5%;
+  top: 53.8%;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 0.5px black;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.tag-line-2 > a {
+  text-decoration: none;
+  color: rgb(204, 204, 83);
+  /* -webkit-text-stroke: 0.2px rgb(183, 209, 65); */
+}
+
+@media screen and (max-width: 990px) {
+  .tag-line {
+    font-size: 45px;
+     -webkit-text-stroke: 0.4px black;
+  }
+
+  .tag-line-2 {
+   top: 52%;
+   left:6%;
+   font-size: 20px;
+    
+  }
+}
+@media screen and (max-width: 760px) {
+  .landing-page {
+    height: 75vw;
+  }
+}
+@media screen and (max-width: 575px) {
+  .landing-page {
+    height: 130vw;
+  }
+
+  .tag-line-2{
+      top:63%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .landing-page {
+    height: 130vw;
+  }
+
+  .tag-line-2{
+      top:63%;
+  }
+}
+@media screen and (max-width: 385px) {
+  .landing-page {
+    height: 130vw;
+  }
+
+  .tag-line-2{
+      top:75%;
+  }
+}
+
+@media screen and (max-width:320px){
+    .tag-line{
+        font-size: 35px ;
+    }
+}
+
+@media screen and (max-width:245px){
+    .tag-line{
+        font-size: 30px ;
+    }
+}
+@media screen and (min-width: 1320px) {
+  .tag-line {
+    font-size: 80px;
+  }
+
+  .tag-line-2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .tag-line-2 {
+    top: 49%;
+  }
+}
+
+
+
