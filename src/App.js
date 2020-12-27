@@ -44,7 +44,6 @@ useEffect(()=>{
       <Switch>
        <Route exact path="/" component={HomePage}  />
        <Route path="/cart" component={CartPage} />
-       <Route component={ErrorPage} />
       </Switch>
       </UserContext.Provider>
      
