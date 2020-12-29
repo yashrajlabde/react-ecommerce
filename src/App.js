@@ -42,9 +42,10 @@ useEffect(()=>{
     <>
      <UserContext.Provider value={{product,setProduct}}>
       <Switch>
+   
        <Route exact path="/" component={HomePage}  />
        <Route path="/cart" component={CartPage} />
-       <Route component={ErrorPage} />
+          <Route component={ErrorPage} />
       </Switch>
       </UserContext.Provider>
      
